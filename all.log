@@ -1,0 +1,100 @@
+[2021/11/29 10:41:0]top.kkoishi.log.Event:Create new Image file!Location:D:\ProjectJava\PixPainter_es3\.\g2d\new.png
+[2021/11/29 10:44:52]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 10:45:1]top.kkoishi.log.Event:Create new Image file!Location:D:\ProjectJava\PixPainter_es3\.\g2d\test.png
+[2021/11/29 10:45:10]top.kkoishi.log.Event:Success to set font
+[2021/11/29 10:45:54]top.kkoishi.log.Event:Draw the string "rue"
+[2021/11/29 10:46:0]top.kkoishi.log.Event:Success to set color tojava.awt.Color[r=255,g=0,b=0]
+[2021/11/29 10:46:10]top.kkoishi.log.Event: Draw a line with the color java.awt.Color[r=255,g=0,b=0]
+[2021/11/29 10:46:13]top.kkoishi.log.Event:Export success!The draw board is empty now.
+[2021/11/29 10:49:20]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 10:50:0]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 10:51:15]top.kkoishi.log.Event:Create new Image file!Location:D:\ProjectJava\PixPainter_es3\.\Graph.png
+[2021/11/29 10:51:15]top.kkoishi.log.Event:The workspace has changed to C:/Users/DELL/Desktop
+[2021/11/29 10:51:15]top.kkoishi.log.Event:Success to set font
+[2021/11/29 10:51:15]top.kkoishi.log.Event:Success to set color tojava.awt.Color[r=255,g=0,b=0]
+[2021/11/29 10:51:15]top.kkoishi.log.Event:Draw circle(radix = 50) at (500,50)
+[2021/11/29 10:51:15]top.kkoishi.log.Event:Draw circle(radix = 50) at (340,200)
+[2021/11/29 10:51:15]top.kkoishi.log.Event:Draw circle(radix = 50) at (660,200)
+[2021/11/29 10:51:15]top.kkoishi.log.Event:Draw circle(radix = 50) at (180,350)
+[2021/11/29 10:51:15]top.kkoishi.log.Event:Draw circle(radix = 50) at (500,350)
+[2021/11/29 10:51:16]top.kkoishi.log.Event:Draw circle(radix = 50) at (820,350)
+[2021/11/29 10:51:16]top.kkoishi.log.Event:Draw circle(radix = 50) at (820,600)
+[2021/11/29 10:51:16]top.kkoishi.log.Event:Success to set color tojava.awt.Color[r=0,g=255,b=0]
+[2021/11/29 10:51:16]top.kkoishi.log.Event:Draw circle(radix = 100) at (500,800)
+[2021/11/29 10:51:16]top.kkoishi.log.Event:Success to set color tojava.awt.Color[r=0,g=255,b=255]
+[2021/11/29 10:51:16]top.kkoishi.log.Event: Draw a line with the color java.awt.Color[r=0,g=255,b=255]
+[2021/11/29 10:51:16]top.kkoishi.log.Event: Draw a line with the color java.awt.Color[r=0,g=255,b=255]
+[2021/11/29 10:51:16]top.kkoishi.log.Event: Draw a line with the color java.awt.Color[r=0,g=255,b=255]
+[2021/11/29 10:51:16]top.kkoishi.log.Event: Draw a line with the color java.awt.Color[r=0,g=255,b=255]
+[2021/11/29 10:51:16]top.kkoishi.log.Event: Draw a line with the color java.awt.Color[r=0,g=255,b=255]
+[2021/11/29 10:51:16]top.kkoishi.log.Event:Success to set color tojava.awt.Color[r=255,g=175,b=175]
+[2021/11/29 10:51:16]top.kkoishi.log.Event: Draw a line with the color java.awt.Color[r=255,g=175,b=175]
+[2021/11/29 10:51:16]top.kkoishi.log.Event:Draw the string "start"
+[2021/11/29 10:51:16]top.kkoishi.log.Event:Draw the string "a1"
+[2021/11/29 10:51:16]top.kkoishi.log.Event:Draw the string "a2"
+[2021/11/29 10:51:16]top.kkoishi.log.Event:Draw the string "b1"
+[2021/11/29 10:51:16]top.kkoishi.log.Event:Draw the string "b2"
+[2021/11/29 10:51:16]top.kkoishi.log.Event:Draw the string "b3"
+[2021/11/29 10:51:16]top.kkoishi.log.Event:Draw the string "rua~~"
+[2021/11/29 10:51:16]top.kkoishi.log.Event:Draw the string "end"
+[2021/11/29 10:51:16]top.kkoishi.log.Event: Draw a polyline with 5points
+[2021/11/29 10:51:16]top.kkoishi.log.Event: Draw a polyline with 4points
+[2021/11/29 10:51:16]top.kkoishi.log.Event: Draw a line with the color java.awt.Color[r=255,g=175,b=175]
+[2021/11/29 10:51:16]top.kkoishi.log.Event:Export success!The draw board is empty now.
+[2021/11/29 11:6:8]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 11:8:53]top.kkoishi.log.Event:Create new Image file!Location:D:\ProjectJava\PixPainter_es3\.\g2d\test.png
+[2021/11/29 11:9:17]top.kkoishi.log.Event:Create new Image file!Location:D:\ProjectJava\PixPainter_es3\.\g2d\new.png
+[2021/11/29 11:9:28]top.kkoishi.log.Event:Export success!The draw board is empty now.
+[2021/11/29 11:9:34]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 11:16:20]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 11:17:16]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 11:18:35]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 11:19:26]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 11:19:59]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 11:22:13]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 11:22:17]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 11:22:22]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 11:22:26]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 11:26:55]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 11:26:55]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 11:26:56]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 11:28:6]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 11:28:26]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 11:28:26]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 11:28:27]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 12:37:0]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 12:54:49]top.kkoishi.log.Event:Create new Image file!Location:D:\ProjectJava\PixPainter_es3\.\g2d\test.png
+[2021/11/29 12:55:0]top.kkoishi.log.Event:Success to set color tojava.awt.Color[r=255,g=0,b=0]
+[2021/11/29 12:55:37]top.kkoishi.log.Event:Success to set color tojava.awt.Color[r=0,g=255,b=0]
+[2021/11/29 12:56:6]top.kkoishi.log.Event: Invoke log func
+[2021/11/29 12:56:33]top.kkoishi.log.Event: Invoke log func
+[2021/11/29 13:11:12]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 13:11:18]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 13:18:57]top.kkoishi.log.Event:Create new Image file!Location:D:\ProjectJava\PixPainter_es3\.\g2d\test.png
+[2021/11/29 13:27:56]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 13:32:13]top.kkoishi.log.Event:Create new Image file!Location:D:\ProjectJava\PixPainter_es3\.\g2d\test.png

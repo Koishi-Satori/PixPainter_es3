@@ -1,0 +1,7 @@
+create 1000 1000 test;
+setfont null bold 20;
+setcolor red;
+node -circle 500 100 100 1;
+node -circle 500 500 100 2;
+direct 500 200 200 400;
+export;
