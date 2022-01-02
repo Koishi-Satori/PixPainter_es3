@@ -1,7 +1,6 @@
 package top.kkoishi;
 
 import top.kkoishi.swing.Console;
-import top.kkoishi.swing.Paint;
 import top.kkoishi.util.Vector;
 
 import java.util.HashMap;
@@ -14,6 +13,7 @@ public class PixPainter {
     public static Vector<String> commands;
     public static HashMap<String, String> commandInfo = new HashMap<>();
     public static final HashMap<String, String> SYNTAX_CHECK_MAP = new HashMap<>();
+    public static String[] args;
 
     //Register
     static {
@@ -58,18 +58,30 @@ public class PixPainter {
                 "darkgray pink orange yellow green mageta\n" +
                 "Info:Set the color of the graph painter.When invoke it multiple times,\\n" +
                 "the font will be different");
+        commands.add("draw -line/-ellipse/-rect [x1] [y1] [x2] [y2]");
+        commandInfo.put("draw", "Command:draw\nUse:draw -line/-ellipse/-rect [x1] [y1] [x2] [y2]" +
+                "\nParam:");
         commands.add("draw -circle/-line/-ellipse/-rect [x1] [y1] [x2] [y2]");
-        commands.add("draw -circle/-line/-ellipse/-rect [x1] [y1] [x2] [y2]");
+        commandInfo.put("", "");
         commands.add("drawcircle [x] [y] [r]");
+        commandInfo.put("", "");
         commands.add("fill circle/-ellipse/-rect [x1] [y2] [x2] [y2]");
+        commandInfo.put("", "");
         commands.add("drawpline [amount-point] [x] [y]...");
+        commandInfo.put("", "");
         commands.add("drawrect [amount-point] [x] [y]...");
+        commandInfo.put("", "");
         commands.add("fillp [amount-point] [x] [y]...");
+        commandInfo.put("", "");
         commands.add("drawpoint [x] [y]");
+        commandInfo.put("", "");
         commands.add("drawpic [x] [y] [path]");
+        commandInfo.put("", "");
         commands.add("exportformat png/jepg");
+        commandInfo.put("", "");
         commands.add("drawcurel [x1] [x2] [func] (not finished)");
         commands.add("drawstring [x] [y] [string]");
+        commands.add("gif");
         commands.add("help [command]");
         commands.add("changedir [dir]");
         commands.add("kshell [path]");
@@ -94,6 +106,7 @@ public class PixPainter {
     }
 
     public static void main (String[] args) {
+        PixPainter.args = args;
         new Console("PixPainter-es3");
     }
 }

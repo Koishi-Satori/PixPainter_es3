@@ -1,10 +1,15 @@
 package top.kkoishi.swing;
 
 import top.kkoishi.concurrent.DefaultThreadFactory;
+import top.kkoishi.io.Files;
+import top.kkoishi.io.ZipFiles;
+import top.kkoishi.log.LogType;
+import top.kkoishi.log.Logger;
 import top.kkoishi.ss.ConsoleApi;
 import top.kkoishi.util.LinkedList;
 import top.kkoishi.util.Vector;
 
+import javax.imageio.ImageIO;
 import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.JScrollPane;
@@ -15,6 +20,7 @@ import java.awt.Component;
 import java.awt.Font;
 import java.awt.GraphicsEnvironment;
 import java.awt.HeadlessException;
+import java.awt.Image;
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.DataFlavor;
@@ -24,8 +30,10 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.io.File;
 import java.io.IOException;
 import java.util.Calendar;
+import java.util.List;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 
 import static java.awt.event.KeyEvent.CTRL_DOWN_MASK;
@@ -131,6 +139,31 @@ public class Console extends JFrame {
      */
     public Console (String title) throws HeadlessException {
         super(title);
+        String icoDir = "./IconRuntimeTemp";
+        String datDecompressState = "Load icon files, decompress dat file state:" + ZipFiles.decompress(new File("./icons.dat"), icoDir) + "";
+        Logger.Builder.set("./log");
+        Logger logger = Logger.Builder.build();
+        logger.log(LogType.EVENT, datDecompressState);
+        System.out.println("Load icon files, decompress dat file state:" + datDecompressState);
+        List<Image> images = new LinkedList<>();
+        try {
+            images.add(ImageIO.read(new File("./IconRuntimeTemp/379f219f5393398.ico")));
+            images.add(ImageIO.read(new File("./IconRuntimeTemp/logo.ico")));
+            if (!images.isEmpty()) {
+                setIconImages(images);
+                Files.DefaultFiles.access.append("./all.log", getLogTime() + "Successfully set icon.\n");
+                System.out.println("Delete icon file temp state:" +
+                        (new File("./IconRuntimeTemp/379f219f5393398.ico").delete() &&
+                                new File("./IconRuntimeTemp/logo.ico").delete()));
+                System.out.println("Delete icon dir temp state:" + new File(icoDir).delete());
+            } else {
+                new IOException("Failed to read icons").printStackTrace();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.out.println(e.getLocalizedMessage());
+            logger.log(LogType.EXCEPTION, e.getLocalizedMessage());
+        }
         setSize(500, 500);
         setFocusable(true);
         add(jsp);
@@ -435,6 +468,13 @@ public class Console extends JFrame {
                 CALENDAR.get(Calendar.MONTH) + "/" + CALENDAR.get(Calendar.DAY_OF_MONTH) +
                 "\t" + CALENDAR.get(Calendar.HOUR) + ":" + CALENDAR.get(Calendar.MINUTE) +
                 ":" + CALENDAR.get(Calendar.SECOND) + "\n";
+    }
+
+    private static String getLogTime () {
+        return "[" + CALENDAR.get(Calendar.YEAR) + "/" +
+                CALENDAR.get(Calendar.MONTH) + "/" + CALENDAR.get(Calendar.DAY_OF_MONTH) +
+                " " + CALENDAR.get(Calendar.HOUR) + ":" + CALENDAR.get(Calendar.MINUTE) +
+                ":" + CALENDAR.get(Calendar.SECOND) + "]";
     }
 
     static class FlushCursor implements Runnable {

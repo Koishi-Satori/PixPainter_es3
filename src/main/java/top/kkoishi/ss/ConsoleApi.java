@@ -7,10 +7,12 @@ import top.kkoishi.g2d.PaintApi;
  * @author KKoishi_
  */
 public class ConsoleApi {
-    static PaintApi api = new PaintApi("./g2d");
+    static Api api = new PaintApi("./g2d");
 
     private ConsoleApi () {
     }
+
+
 
     public static String run (String command) {
         api.execute(command);

@@ -98,3 +98,100 @@ top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
 [2021/11/29 13:27:56]top.kkoishi.log.Exception: You have not create a image:
 top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
 [2021/11/29 13:32:13]top.kkoishi.log.Event:Create new Image file!Location:D:\ProjectJava\PixPainter_es3\.\g2d\test.png
+[2021/11/29 16:39:43]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 16:39:44]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 16:39:45]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:355)
+[2021/11/29 21:19:50]top.kkoishi.log.Event: Invoke log func
+[2021/11/29 21:31:56]top.kkoishi.log.Event: Invoke log func
+[2021/11/30 14:18:5]top.kkoishi.log.Event:Create new Image file!Location:D:\ProjectJava\PixPainter_es3\.\g2d\empty.png
+[2021/11/30 14:18:13]top.kkoishi.log.Event:Export success!The draw board is empty now.
+[2021/11/31	9:23:22]Successfully set icon
+[2021/11/31	9:23:36]Successfully set icon
+[2021/11/31 9:23:41]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:356)
+[2021/11/31	9:24:58]Successfully set icon.
+[2021/11/31	9:25:30]Successfully set icon.
+[2021/11/31	9:26:24]Successfully set icon.
+[2021/11/31	9:29:5]Successfully set icon.
+[2021/11/31	9:29:42]Successfully set icon.
+[2021/11/31	9:30:29]Successfully set icon.
+[2021/11/31 9:32:47]top.kkoishi.log.Event: Load icon files, decompress dat file state:true
+[2021/11/31	9:32:47]Successfully set icon.
+[2021/11/31 9:34:54]top.kkoishi.log.Event: Load icon files, decompress dat file state:true
+[2021/11/31 9:34:54]Successfully set icon.
+[2021/11/31 17:1:40]top.kkoishi.log.Event: Load icon files, decompress dat file state:true
+[2021/11/31 5:1:40]Successfully set icon.
+[2022/0/2 10:13:0]top.kkoishi.log.Event:Create new Image file!Location:D:\ProjectJava\PixPainter_es3\.\Graph.png
+[2022/0/2 10:13:0]top.kkoishi.log.Event:The workspace has changed to C:/Users/DELL/Desktop
+[2022/0/2 10:13:0]top.kkoishi.log.Event:Success to set font
+[2022/0/2 10:13:0]top.kkoishi.log.Event:Success to set color tojava.awt.Color[r=255,g=0,b=0]
+[2022/0/2 10:13:0]top.kkoishi.log.Event:Draw circle(radix = 50) at (500,50)
+[2022/0/2 10:13:0]top.kkoishi.log.Event:Draw circle(radix = 50) at (340,200)
+[2022/0/2 10:13:0]top.kkoishi.log.Event:Draw circle(radix = 50) at (660,200)
+[2022/0/2 10:13:0]top.kkoishi.log.Event:Draw circle(radix = 50) at (180,350)
+[2022/0/2 10:13:0]top.kkoishi.log.Event:Draw circle(radix = 50) at (500,350)
+[2022/0/2 10:13:0]top.kkoishi.log.Event:Draw circle(radix = 50) at (820,350)
+[2022/0/2 10:13:0]top.kkoishi.log.Event:Draw circle(radix = 50) at (820,600)
+[2022/0/2 10:13:0]top.kkoishi.log.Event:Success to set color tojava.awt.Color[r=0,g=255,b=0]
+[2022/0/2 10:13:0]top.kkoishi.log.Event:Draw circle(radix = 100) at (500,800)
+[2022/0/2 10:13:0]top.kkoishi.log.Event:Success to set color tojava.awt.Color[r=0,g=255,b=255]
+[2022/0/2 10:13:0]top.kkoishi.log.Event: Draw a line with the color java.awt.Color[r=0,g=255,b=255]
+[2022/0/2 10:13:0]top.kkoishi.log.Event: Draw a line with the color java.awt.Color[r=0,g=255,b=255]
+[2022/0/2 10:13:0]top.kkoishi.log.Event: Draw a line with the color java.awt.Color[r=0,g=255,b=255]
+[2022/0/2 10:13:0]top.kkoishi.log.Event: Draw a line with the color java.awt.Color[r=0,g=255,b=255]
+[2022/0/2 10:13:0]top.kkoishi.log.Event: Draw a line with the color java.awt.Color[r=0,g=255,b=255]
+[2022/0/2 10:13:0]top.kkoishi.log.Event:Success to set color tojava.awt.Color[r=255,g=175,b=175]
+[2022/0/2 10:13:0]top.kkoishi.log.Event: Draw a line with the color java.awt.Color[r=255,g=175,b=175]
+[2022/0/2 10:13:0]top.kkoishi.log.Event:Draw the string "start"
+[2022/0/2 10:13:0]top.kkoishi.log.Event:Draw the string "a1"
+[2022/0/2 10:13:1]top.kkoishi.log.Event:Draw the string "a2"
+[2022/0/2 10:13:1]top.kkoishi.log.Event:Draw the string "b1"
+[2022/0/2 10:13:1]top.kkoishi.log.Event:Draw the string "b2"
+[2022/0/2 10:13:1]top.kkoishi.log.Event:Draw the string "b3"
+[2022/0/2 10:13:1]top.kkoishi.log.Event:Draw the string "rua~~"
+[2022/0/2 10:13:1]top.kkoishi.log.Event:Draw the string "end"
+[2022/0/2 10:13:1]top.kkoishi.log.Event: Draw a polyline with 5points
+[2022/0/2 10:13:1]top.kkoishi.log.Event: Draw a polyline with 4points
+[2022/0/2 10:13:1]top.kkoishi.log.Event: Draw a line with the color java.awt.Color[r=255,g=175,b=175]
+[2022/0/2 10:17:25]top.kkoishi.log.Event: Load icon files, decompress dat file state:true
+[2022/0/2 10:17:25]Successfully set icon.
+[2022/0/2 10:17:29]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:368)
+[2022/0/2 10:17:48]top.kkoishi.log.Event: Load icon files, decompress dat file state:true
+[2022/0/2 10:17:47]Successfully set icon.
+[2022/0/2 10:17:50]top.kkoishi.log.Exception: You have not create a image:
+top.kkoishi.g2d.PaintApi.analysis(PaintApi.java:369)
+[2022/0/2 10:18:16]top.kkoishi.log.Event: Load icon files, decompress dat file state:true
+[2022/0/2 10:18:16]Successfully set icon.
+[2022/0/2 10:19:30]top.kkoishi.log.Event: Load icon files, decompress dat file state:true
+[2022/0/2 10:19:30]Successfully set icon.
+[2022/0/2 10:19:53]top.kkoishi.log.Event: Load icon files, decompress dat file state:true
+[2022/0/2 10:19:53]Successfully set icon.
+[2022/0/2 10:21:41]top.kkoishi.log.Event: Load icon files, decompress dat file state:true
+[2022/0/2 10:21:41]Successfully set icon.
+[2022/0/2 10:55:34]top.kkoishi.log.Event: Load icon files, decompress dat file state:true
+[2022/0/2 10:55:34]Successfully set icon.
+[2022/0/2 10:55:51]top.kkoishi.log.Event: Load icon files, decompress dat file state:true
+[2022/0/2 10:55:51]Successfully set icon.
+[2022/0/2 10:55:53]top.kkoishi.log.Event: Load icon files, decompress dat file state:true
+[2022/0/2 10:55:53]Successfully set icon.
+[2022/0/2 10:56:7]top.kkoishi.log.Event: Load icon files, decompress dat file state:true
+[2022/0/2 10:56:6]Successfully set icon.
+[2022/0/2 10:56:8]top.kkoishi.log.Event: Load icon files, decompress dat file state:true
+[2022/0/2 10:56:8]Successfully set icon.
+[2022/0/2 10:57:39]top.kkoishi.log.Event: Load icon files, decompress dat file state:true
+[2022/0/2 10:57:39]Successfully set icon.
+[2022/0/2 10:57:42]top.kkoishi.log.Event: Load icon files, decompress dat file state:true
+[2022/0/2 10:57:42]Successfully set icon.
+[2022/0/2 11:10:16]top.kkoishi.log.Event: Load icon files, decompress dat file state:true
+[2022/0/2 11:10:16]Successfully set icon.
+[2022/0/2 11:10:27]top.kkoishi.log.Event: Load icon files, decompress dat file state:true
+[2022/0/2 11:10:27]Successfully set icon.
+[2022/0/2 11:10:39]top.kkoishi.log.Event:Create new Image file!Location:D:\ProjectJava\PixPainter_es3\.\g2d\test.png
+[2022/0/2 11:11:12]top.kkoishi.log.Event: Load icon files, decompress dat file state:true
+[2022/0/2 11:11:12]Successfully set icon.
+[2022/0/2 11:11:19]top.kkoishi.log.Event: Load icon files, decompress dat file state:true
+[2022/0/2 11:11:19]Successfully set icon.

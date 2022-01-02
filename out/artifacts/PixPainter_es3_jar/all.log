@@ -1,0 +1,15 @@
+[2021/11/30 14:14:44]top.kkoishi.log.Event:Create new Image file!Location:D:\ProjectJava\PixPainter_es3\out\artifacts\PixPainter_es3_jar\.\g2d\test.png
+[2021/11/30 14:14:52]top.kkoishi.log.Event:Success to set color tojava.awt.Color[r=255,g=0,b=0]
+[2021/11/30 14:15:10]top.kkoishi.log.Event:Success to set font
+[2021/11/30 14:15:23]top.kkoishi.log.Event: Draw a line with the color java.awt.Color[r=255,g=0,b=0]
+[2021/11/30 14:15:26]top.kkoishi.log.Event:Export success!The draw board is empty now.
+[2021/11/30 14:16:37]top.kkoishi.log.Event:Create new Image file!Location:D:\ProjectJava\PixPainter_es3\out\artifacts\PixPainter_es3_jar\.\graph.png
+[2021/11/30 14:16:37]top.kkoishi.log.Event:The workspace has changed to C:/Users/DELL/Desktop/kscript/export
+[2021/11/30 14:16:37]top.kkoishi.log.Event:Success to set font
+[2021/11/30 14:16:37]top.kkoishi.log.Error: Error color type.
+
+[2021/11/30 14:16:37]top.kkoishi.log.Event:Draw circle(radix = 100) at (100,100)
+[2021/11/30 14:16:37]top.kkoishi.log.Event:Draw the string "start-point"
+[2021/11/30 14:16:37]top.kkoishi.log.Event:Export success!The draw board is empty now.
+[2021/11/30 14:16:37]top.kkoishi.log.Exception: top.kkoishi.log.Exception:Export failed.
+Can't create an ImageOutputStream!

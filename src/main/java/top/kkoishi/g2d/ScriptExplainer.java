@@ -2,6 +2,7 @@ package top.kkoishi.g2d;
 
 import top.kkoishi.util.LinkedList;
 
+import java.awt.image.BufferedImage;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -48,7 +49,8 @@ public class ScriptExplainer {
 
     public void execute () {
         for (String token : tokens) {
-            String command = token.replaceAll("\n", "").replaceAll("\r", "");
+            String command = token.replaceAll("\n", "")
+                    .replaceAll("\r", "");
             if (command.matches("\\s*")) {
                 continue;
             }
@@ -56,6 +58,25 @@ public class ScriptExplainer {
             String call = api.getCall();
             calls.add(call);
         }
+    }
+
+    public void executeImpl () {
+        for (String token : tokens) {
+            if (!token.matches(PaintApi.EXPORT_REGEX)) {
+                String command = token.replaceAll("\n", "")
+                        .replaceAll("\r", "");
+                if (command.matches("\\s*")) {
+                    continue;
+                }
+                api.execute(command);
+                String call = api.getCall();
+                calls.add(call);
+            }
+        }
+    }
+
+    public BufferedImage get () {
+        return api.image;
     }
 
     public List<String> getEcho () {

@@ -3,9 +3,11 @@ package top.kkoishi.g2d;
 import top.kkoishi.CompilerSyntaxErrorException;
 import top.kkoishi.PixPainter;
 import top.kkoishi.editor.FileEditor;
+import top.kkoishi.gif_model.GifGen;
 import top.kkoishi.io.Files;
 import top.kkoishi.log.LogType;
 import top.kkoishi.log.Logger;
+import top.kkoishi.ss.Api;
 import top.kkoishi.swing.Info;
 import top.kkoishi.swing.Log;
 import top.kkoishi.swing.Paint;
@@ -31,7 +33,19 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.Calendar;
 
-import static java.lang.StrictMath.*;
+import static java.lang.StrictMath.PI;
+import static java.lang.StrictMath.abs;
+import static java.lang.StrictMath.acos;
+import static java.lang.StrictMath.asin;
+import static java.lang.StrictMath.atan;
+import static java.lang.StrictMath.cbrt;
+import static java.lang.StrictMath.cos;
+import static java.lang.StrictMath.exp;
+import static java.lang.StrictMath.log;
+import static java.lang.StrictMath.log10;
+import static java.lang.StrictMath.sin;
+import static java.lang.StrictMath.sqrt;
+import static java.lang.StrictMath.tan;
 import static java.lang.System.gc;
 import static java.lang.System.out;
 import static top.kkoishi.PixPainter.commands;
@@ -53,7 +67,7 @@ import static top.kkoishi.PixPainter.commands;
  * @see Paint
  * @since java8
  */
-public class PaintApi {
+public class PaintApi implements Api {
     /*---------------------------------FieldStart-----------------------------------------------------*/
     /**
      * Const pool.
@@ -180,6 +194,12 @@ public class PaintApi {
                 logger.log(LogType.EXCEPTION, call);
                 call += "\nPixPainter>";
             }
+            return;
+        }
+        //if summon gif
+        else if (command.matches("\\s*gif\\s*")) {
+            call = "start gif thread\n";
+            new Thread(new GifGen()).start();
             return;
         }
         //if check legal
@@ -1302,6 +1322,7 @@ help [-[command]]
      *
      * @param command command or script line.
      */
+    @Override
     public void execute (String command) {
         out.println(pre(command));
         analysis(pre(command));
@@ -1338,6 +1359,7 @@ help [-[command]]
      *
      * @return the execute result.
      */
+    @Override
     public String getCall () {
         final String temp = call;
         call = "";
@@ -1357,5 +1379,9 @@ help [-[command]]
                 + calendar.get(Calendar.HOUR_OF_DAY) + ":"
                 + calendar.get(Calendar.MINUTE) + ":"
                 + calendar.get(Calendar.SECOND) + "]";
+    }
+
+    public BufferedImage getImage () {
+        return image;
     }
 }

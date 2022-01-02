@@ -70,6 +70,32 @@ public class GraphCompiler {
         }
     }
 
+    public void compileImpl () throws CompilerSyntaxErrorException {
+        script = new File(workspace +
+                graph.getName().replaceFirst("\\.k([gG])raph$", "") +
+                ".kScript");
+        try {
+            System.out.println(script.createNewFile());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        try {
+            Files.DefaultFiles.access.write(script, "");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        for (String token : tokens) {
+            singleCompile(token);
+        }
+        for (String call : calls) {
+            try {
+                Files.DefaultFiles.access.append(script, call);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
     public LinkedList<String> getCalls () {
         return calls;
     }
